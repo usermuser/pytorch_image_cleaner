@@ -4,7 +4,8 @@ import torch
 import numpy as np
 import torch.nn as nn
 import torch.optim as optim
-from torchinfo import summary
+# from torchinfo import summary
+from torchsummary import summary
 
 from tqdm import tqdm
 
